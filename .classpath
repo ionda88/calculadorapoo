@@ -7,5 +7,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="/Users/nicolascamposdeoliveira/Desenvolvimento/WorkspaceCesumar/CalculadoraPOO/src/classes/Divisao.jar"/>
+	<classpathentry kind="lib" path="/Users/nicolascamposdeoliveira/Desenvolvimento/WorkspaceCesumar/CalculadoraPOO/src/classes/Multiplicacao.jar"/>
+	<classpathentry kind="lib" path="/Users/nicolascamposdeoliveira/Desenvolvimento/WorkspaceCesumar/CalculadoraPOO/src/classes/Subtracao.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
