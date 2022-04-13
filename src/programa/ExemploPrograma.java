@@ -6,6 +6,7 @@ import java.util.Scanner;
 
 import classes.Divisao;
 import classes.Multiplicacao;
+import classes.Multiplicacao2;
 import classes.Soma;
 import classes.Subtracao;
 import interfaces.ICalculadora;
@@ -25,7 +26,7 @@ public class ExemploPrograma {
 			} else if (opc == 2) {
 				calculadora = new Subtracao();
 			}else if (opc == 3) {
-				calculadora = new Multiplicacao();
+				calculadora = new Multiplicacao2();
 			}else if (opc == 4) {
 				calculadora = new Divisao();
 			} else if (opc != 5){
@@ -59,18 +60,18 @@ public class ExemploPrograma {
 							break;
 						}
 					}
-					Object result = 0.0;
+					
 					if(temDouble) {
 						Double[] arr = listaDouble.toArray(new Double[listaDouble.size()]);
-						result = calculadora.calcula(arr);
+						System.out.println(calculadora.calcula(arr));
 					} else {
 						Integer[] arr = new Integer[listaDouble.size()];
 						for(int i = 0; i < listaDouble.size(); i++) {
 							arr[i] = listaDouble.get(i).intValue();
 						}
-						result = calculadora.calcula(arr);
+						System.out.println(calculadora.calcula(arr));
 					}
-					System.out.println(result);
+					
 				} else {
 					Object result = 0.0;
 					if(n1 % 1 == 0 && n1 % 2 == 0) {
