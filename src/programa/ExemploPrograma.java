@@ -6,7 +6,6 @@ import java.util.Scanner;
 
 import classes.Divisao;
 import classes.Multiplicacao;
-import classes.Multiplicacao2;
 import classes.Soma;
 import classes.Subtracao;
 import interfaces.ICalculadora;
@@ -26,7 +25,7 @@ public class ExemploPrograma {
 			} else if (opc == 2) {
 				calculadora = new Subtracao();
 			}else if (opc == 3) {
-				calculadora = new Multiplicacao2();
+				calculadora = new Multiplicacao();
 			}else if (opc == 4) {
 				calculadora = new Divisao();
 			} else if (opc != 5){
